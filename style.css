@@ -1,0 +1,108 @@
+/* ! Reset */
+body,
+html {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #858e965a;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    height: auto;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+h6 {
+    font-size: 0.6rem;
+}
+
+/* container */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********** Card **********/
+.card{
+    width: 15%;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    border-radius: 7px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+/* Header card */
+header img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+/* Main Card */
+.item{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+    padding: 5px 20px;
+}
+
+/* Footer card */
+footer div{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+footer div a{
+    color: #0d6efc;
+}
+
+footer div a:nth-child(2){
+    padding: 10px;
+}
